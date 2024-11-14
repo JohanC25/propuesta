@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Fondo degradado */
+  color: #ffffff; /* Texto en blanco */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Texto central */
+#center-text {
+  font-size: 3rem;
+  margin-bottom: 40px; /* Mayor espacio entre el texto y los botones */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para mejor visibilidad */
+}
+
+/* Contenedor de botones */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espaciado horizontal entre los botones */
+}
+
+/* Botones */
+button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+#yes-button {
+  background-color: #4caf50; /* Verde */
+  color: white;
+}
+
+#yes-button:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+  transform: scale(1.1); /* Efecto de escala */
+}
+
+#no-button {
+  position: absolute;
+  white-space: nowrap;
+  background-color: #f44336; /* Rojo */
+  color: white;
+}
+
+#no-button:hover {
+  background-color: #e53935; /* Rojo más oscuro al pasar el mouse */
+  transform: scale(1.1); /* Efecto de escala */
+}
