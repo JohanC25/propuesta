@@ -12,17 +12,48 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       background: linear-gradient(135deg, #1e3c72, #2a5298);
       color: #ffffff;
       font-family: 'Arial', sans-serif;
+      text-align: center;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      margin-bottom: 20px;
+    }
+    .heart-image {
+      width: 200px;
+      height: 200px;
+      background-image: url('../images/foto.jpg'); /* Ruta de la imagen */
+      background-size: cover;
+      background-position: center;
+      mask: 
+        radial-gradient(at 70% 31%, #000 29%, #0000 30%),
+        radial-gradient(at 30% 31%, #000 29%, #0000 30%),
+        linear-gradient(#000 0 0) bottom / 100% 50% no-repeat;
+      -webkit-mask: 
+        radial-gradient(at 70% 31%, #000 29%, #0000 30%),
+        radial-gradient(at 30% 31%, #000 29%, #0000 30%),
+        linear-gradient(#000 0 0) bottom / 100% 50% no-repeat;
+      clip-path: polygon(-41% 0, 50% 91%, 141% 0); /* Forma de corazón */
+    }
+    p {
+      font-size: 1.8rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>¡Gracias por aceptar!</h1>
+  <h1>Eres la mejor del mundo mundial! :3</h1>
+  <div class="heart-image"></div>
+  <p>
+    Mi niña hermosa, quiero que sepas que eres lo más lindo que me ha pasado. 
+    No hay palabras suficientes para describir lo mucho que te quiero y 
+    cuánto significas para mí. 💖 Gracias por estar en mi vida, mi mundo 
+    entero es más bonito contigo. Te adoro con todo mi corazón. ❤️
+  </p>
 </body>
 </html>
