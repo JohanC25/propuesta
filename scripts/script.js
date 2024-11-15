@@ -52,5 +52,5 @@ function distanceFromCenter(boxPosition, mousePosition, boxSize) {
 
 // Redirigir al presionar el botón "Sí"
 yesButton.addEventListener('click', () => {
-  window.location.href = '../html/aceptacion.html';
+  window.location.href = 'aceptacion.html';
 });
